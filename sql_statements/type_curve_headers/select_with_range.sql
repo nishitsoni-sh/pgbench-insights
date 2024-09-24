@@ -3,15 +3,15 @@ WITH version_window AS (
         MIN(lower(sys_period)) AS lower_time,
         MAX(lower(sys_period)) AS upper_time
     FROM
-        development_areas_versions
+        type_curve_headers_versions
 )
 SELECT *
 FROM
-    development_areas_versions dav
+    type_curve_headers_versions tcv
 WHERE
     uuid = (
         SELECT uuid
-        FROM public.development_areas
+        FROM type_curve_headers
                  TABLESAMPLE SYSTEM (1)
     LIMIT 1
     )
