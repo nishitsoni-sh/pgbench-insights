@@ -1,0 +1,12 @@
+# Variables
+APP_NAME="title-chaining-demo"
+DYNO="web.1"
+SCRIPT_NAME="latency_test.sh"
+REMOTE_DIR="/app/tmp"
+OUTPUT_DIR="/var/log/my_crons/latency_test"
+CRUNCHY_FILE="crunchy_latencies_$(date +%s).csv"
+HEROKU_FILE="heroku_latencies_$(date +%s).csv"
+
+# Hosts to ping (using environment variables)
+CRUNCHY_HOST="p.3b77nodwrvgqfo5vlihh3qibne.db.postgresbridge.com:5432"
+HEROKU_HOST="ec2-18-232-40-202.compute-1.amazonaws.com:5432"

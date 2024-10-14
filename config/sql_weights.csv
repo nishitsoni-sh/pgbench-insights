@@ -1,11 +1,9 @@
 table_name,file_name,weight
-development_areas,insert.sql,1
-development_areas,update.sql,1
 development_areas,select_with_range.sql,1
 development_areas,select_pointed_lookup.sql,1
 development_areas,select_all_versions.sql,1
-type_curve_headers,insert.sql,1
-type_curve_headers,update.sql,1
 type_curve_headers,select_with_range.sql,1
 type_curve_headers,select_pointed_lookup.sql,1
 type_curve_headers,select_all_versions.sql,1
+development_areas,insert.sql,6
+development_areas,update.sql,6

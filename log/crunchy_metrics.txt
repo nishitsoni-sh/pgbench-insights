@@ -1,0 +1,34 @@
+Metrics: {:lowest=>0.000755, :highest=>0.041751, :mean=>0.0035161795180722894, :stddev=>0.004133944749056913, :percentile_90=>0.008291600000000001}
+Start Time: 2024-10-09 19:15:09 +0530
+End Time: 2024-10-10 16:30:17 +0530
+Total Span (hours): 21.25
+
+=== New Metrics ===
+Metrics: {:lowest=>0.000755, :highest=>0.041751, :mean=>0.0035161795180722894, :stddev=>0.004133944749056913, :percentile_90=>0.008291600000000001}
+Start Time: 2024-10-09 19:15:09 +0530
+End Time: 2024-10-10 16:30:17 +0530
+Total Span (hours): 21.25
+
+=== New Metrics ===
+Metrics: {:lowest=>0.000755, :highest=>0.041751, :mean=>0.0035173576470588237, :stddev=>0.004109250475133234, :percentile_90=>0.008291600000000001}
+Start Time: 2024-10-09 19:15:09 +0530
+End Time: 2024-10-10 17:00:17 +0530
+Total Span (hours): 21.75
+
+=== New Metrics ===
+Metrics: {:lowest=>0.000755, :highest=>0.041751, :mean=>0.0036773528455284555, :stddev=>0.004169045001372317, :percentile_90=>0.008619700000000001}
+Start Time: 2024-10-09 19:15:09 +0530
+End Time: 2024-10-11 03:00:15 +0530
+Total Span (hours): 31.75
+
+=== New Metrics ===
+Metrics: {:lowest=>0.000755, :highest=>0.041751, :mean=>0.0036773528455284555, :stddev=>0.004169045001372317, :percentile_90=>0.008619700000000001}
+Start Time: 2024-10-09 19:15:09 +0530
+End Time: 2024-10-11 03:00:15 +0530
+Total Span (hours): 31.75
+
+=== New Metrics ===
+Metrics: {:lowest=>0.000755, :highest=>0.041751, :mean=>0.0036415640000000003, :stddev=>0.004146298315884184, :percentile_90=>0.008567800000000004}
+Start Time: 2024-10-09 19:15:09 +0530
+End Time: 2024-10-11 04:15:17 +0530
+Total Span (hours): 33.0
