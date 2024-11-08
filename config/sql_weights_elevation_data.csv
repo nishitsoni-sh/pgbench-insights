@@ -1,0 +1,2 @@
+table_name,file_name,weight
+elevation_data,select_knn.sql,1
