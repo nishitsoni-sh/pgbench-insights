@@ -1,4 +1,3 @@
-# bin/main.rb
 require_relative '../lib/environment_loader'
 require_relative '../lib/seeding_processor'
 require_relative '../lib/pgbench_runner'
@@ -16,6 +15,7 @@ def main
   duration = ENV['DURATION']
   log_dir = ENV['LOG_DIR']
   app_dir = ENV['APP_DIR']
+  sql_weights_file = ENV['SQL_WEIGHTS_FILE'] || 'sql_weights.csv'
 
   if clients.nil? || duration.nil? || log_dir.nil? || clients.to_i <= 0 || duration.to_i <= 0
     puts "Configuration error: Please provide valid number_of_clients, duration_in_seconds, and log_directory in the config file."
@@ -23,7 +23,7 @@ def main
   end
 
   puts app_dir
-  csv_file = "#{app_dir}/config/sql_weights.csv"
+  csv_file = "#{app_dir}/config/#{sql_weights_file}"
   output_csv_file = "#{log_dir}/pg_bench_output.csv"
   unless File.exist?(csv_file)
     puts "CSV file #{csv_file} not found!"
