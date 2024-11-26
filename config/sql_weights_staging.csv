@@ -1,0 +1,4 @@
+table_name,file_name,weight
+development_areas,select_with_uuid.sql,1
+development_areas,insert.sql,1
+development_areas,update.sql,1
